@@ -9,7 +9,8 @@
 		--sl-color-gray-4: hsl(224, 7%, 36%);
 		--sl-color-gray-5: hsl(224, 10%, 23%);
 		--sl-color-gray-6: hsl(224, 14%, 16%);
-		--sl-color-black: hsl(224, 10%, 10%);
+		--sl-color-gray-7: hsl(224, 14%, 10%);
+		--sl-color-black: hsl(224, 10%, 8%);
 
 		--sl-hue-orange: 41;
 		--sl-color-orange-low: hsl(var(--sl-hue-orange), 39%, 22%);
@@ -34,7 +35,7 @@
 
 		--sl-color-accent-low: hsl(224, 54%, 20%);
 		--sl-color-accent: hsl(224, 100%, 60%);
-		--sl-color-accent-high: hsl(224, 100%, 85%);
+		--sl-color-accent-high: hsl(220, 100%, 85%);
 
 		--sl-color-text: var(--sl-color-gray-2);
 		--sl-color-text-accent: var(--sl-color-accent-high);
@@ -93,11 +94,11 @@
 		--__sl-font-mono: var(--sl-font-mono, var(--sl-font-system-mono)), var(--sl-font-system-mono);
 
 		/** Key layout values */
-		--sl-nav-height: 3.5rem;
+		--sl-nav-height: 2.5rem;
 		--sl-nav-pad-x: 1rem;
-		--sl-nav-pad-y: 0.75rem;
+		--sl-nav-pad-y: 0.25rem;
 		--sl-mobile-toc-height: 3rem;
-		--sl-sidebar-width: 18.75rem;
+		--sl-sidebar-width: 16.75rem;
 		--sl-sidebar-pad-x: 1rem;
 		--sl-content-width: 45rem;
 		--sl-content-pad-x: 1rem;
@@ -123,9 +124,9 @@
 		--sl-color-gray-3: hsl(224, 7%, 36%);
 		--sl-color-gray-4: hsl(224, 6%, 56%);
 		--sl-color-gray-5: hsl(224, 6%, 77%);
-		--sl-color-gray-6: hsl(224, 20%, 94%);
-		--sl-color-gray-7: hsl(224, 19%, 97%);
-		--sl-color-black: hsl(0, 0%, 100%);
+		--sl-color-gray-6: hsl(224, 20%, 89%);
+		--sl-color-gray-7: hsl(224, 19%, 93%);
+		--sl-color-black: hsl(0, 0%, 95%);
 
 		--sl-color-orange-high: hsl(var(--sl-hue-orange), 80%, 25%);
 		--sl-color-orange: hsl(var(--sl-hue-orange), 90%, 60%);
@@ -143,13 +144,13 @@
 		--sl-color-red: hsl(var(--sl-hue-red), 90%, 60%);
 		--sl-color-red-low: hsl(var(--sl-hue-red), 80%, 90%);
 
-		--sl-color-accent-high: hsl(234, 80%, 30%);
-		--sl-color-accent: hsl(234, 90%, 60%);
+		--sl-color-accent-high: hsl(224, 80%, 90%);
+		--sl-color-accent: hsl(234, 50%, 50%);
 		--sl-color-accent-low: hsl(234, 88%, 90%);
 
 		--sl-color-text-accent: var(--sl-color-accent);
 		--sl-color-text-invert: var(--sl-color-black);
-		--sl-color-bg-nav: var(--sl-color-gray-7);
+		--sl-color-bg-nav: var(--sl-color-gray-6);
 		--sl-color-bg-sidebar: var(--sl-color-bg);
 		--sl-color-bg-inline-code: var(--sl-color-gray-6);
 		--sl-color-bg-accent: var(--sl-color-accent);
@@ -169,7 +170,7 @@
 
 	@media (min-width: 50em) {
 		:root {
-			--sl-nav-height: 4rem;
+			--sl-nav-height: 3rem;
 			--sl-nav-pad-x: 1.5rem;
 			--sl-text-h1: var(--sl-text-5xl);
 			--sl-text-h2: var(--sl-text-4xl);
