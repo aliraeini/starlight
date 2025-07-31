@@ -1,7 +1,7 @@
 ---
 import { logos } from 'virtual:starlight/user-images';
 import config from 'virtual:starlight/user-config';
-const { siteTitle, siteTitleHref } = Astro.locals.starlightRoute;
+const { siteTitleHref } = Astro.locals.starlightRoute; // siteTitle,
 ---
 
 <a href={siteTitleHref} class="site-title sl-flex">
@@ -28,9 +28,6 @@ const { siteTitle, siteTitleHref } = Astro.locals.starlightRoute;
 			</>
 		)
 	}
-	<span class:list={{ 'sr-only': config.logo?.replacesTitle }} translate="no">
-		{siteTitle}
-	</span>
 </a>
 
 <style>
