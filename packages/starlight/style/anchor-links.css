@@ -1,4 +1,4 @@
-/* 
+/*
 How does anchor link placement work?
 
 Because anchor links need to placed inline at the end of a heading, but are not children of the
@@ -49,7 +49,7 @@ how we do it.
 	.sl-markdown-content
 		:not(h1, h2, h3, h4, h5, h6, .sl-heading-wrapper)
 		+ :is(.sl-heading-wrapper) {
-		margin-top: 1.5em;
+		margin-top: 1.15em;
 	}
 
 	/* These font sizes are set in `markdown.css` for heading elements, but we need them one level higher on the wrapper. */
